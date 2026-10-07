@@ -1,0 +1,14 @@
+---
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<section class="hero" id="top">
+  <div class="container hero-content">
+    <div class="hero-title"><div class="eyebrow">Мастерская авторских украшений</div><h1>Украшения<br />с характером</h1><p>Натуральные материалы, ручная работа и смелые сочетания — для образа, в котором вы узнаёте себя.</p></div>
+    <div class="hero-mosaic" aria-label="Украшения ViVA">
+      <figure><img src={`${base}images/viva/product-4.jpg`} alt="Колье ViVA в подарочной коробке" loading="eager" fetchpriority="high" /></figure>
+      <figure><img src={`${base}images/viva/product-1.jpg`} alt="Авторское украшение ViVA из цветных бусин" loading="eager" /></figure>
+      <figure><img src={`${base}images/viva/product-6.jpg`} alt="Колье ViVA с натуральными камнями" loading="lazy" /></figure>
+    </div>
+    <div class="hero-actions"><a class="button outline" href="#collection">Посмотреть украшения</a><a class="button" href="https://t.me/vafanasievav" target="_blank" rel="noopener">Подобрать с мастером</a></div>
+  </div>
+</section>
