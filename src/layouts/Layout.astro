@@ -29,14 +29,14 @@ const organization = { '@context': 'https://schema.org', '@type': 'Organization'
     <meta name="twitter:image" content={socialImage} />
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
-    <meta name="theme-color" content="#161917" />
+    <meta name="theme-color" content="#FAF7F2" />
     <title>{title}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <script type="application/ld+json" set:html={JSON.stringify(organization)} />
   </head>
-  <body style={`--atmosphere-image:url('${base}images/viva/boutique-runway-bg.png')`}>
+  <body>
     <Header />
     <main><slot /></main>
     <Footer />
